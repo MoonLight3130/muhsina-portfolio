@@ -1,0 +1,12 @@
+{
+  "name": "chandni-portfolio-workspace",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "install:all": "npm.cmd --prefix client install && npm.cmd --prefix server install",
+    "dev:client": "npm.cmd --prefix client run dev",
+    "dev:server": "npm.cmd --prefix server run dev",
+    "build:client": "npm.cmd --prefix client run build",
+    "start:server": "npm.cmd --prefix server start"
+  }
+}
