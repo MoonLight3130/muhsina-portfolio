@@ -2,14 +2,14 @@ export const statsData = [
   {
     id: 'exp',
     iconName: 'UserCheck',
-    value: '10+',
+    value: '2+',
     label: 'Years of Experience',
     highlight: 'Decade of engineering mastery',
   },
   {
     id: 'projects',
     iconName: 'Briefcase',
-    value: '30+',
+    value: '6+',
     label: 'Projects Completed',
     highlight: 'Enterprise & startup builds',
   },
@@ -23,7 +23,7 @@ export const statsData = [
   {
     id: 'clients',
     iconName: 'Users',
-    value: '100+',
+    value: '10+',
     label: 'Happy Clients',
     highlight: 'Global satisfaction & trust',
   },

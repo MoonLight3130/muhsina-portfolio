@@ -154,7 +154,7 @@ export default function Contact() {
                   <div>
                     <p className="text-xs text-slate-400 font-medium">Location</p>
                     <p className="text-sm font-semibold text-white">
-                      San Francisco, California, USA (Open to Remote Worldwide)
+                      Kollam, Kerala, India
                     </p>
                   </div>
                 </div>
