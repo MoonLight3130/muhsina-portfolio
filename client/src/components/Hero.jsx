@@ -37,7 +37,7 @@ export default function Hero() {
             {/* Main Name Heading matching reference */}
             <h1 className="text-4xl sm:text-6xl xl:text-7xl font-extrabold tracking-tight leading-[1.1] mb-3">
               <span className="gradient-text-purple inline-block">Muhsina</span>{' '}
-              <span className="text-white inline-block">Shaheer</span>
+              <span className="text-white inline-block">S</span>
             </h1>
 
             {/* Profession / Role */}

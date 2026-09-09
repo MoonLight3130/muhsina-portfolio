@@ -38,40 +38,6 @@ export const projectsData = [
     githubUrl: 'https://github.com/chandnichauhan/modern-portfolio',
     featured: true,
   },
-  {
-    id: 4,
-    title: 'Cloud Task Management Suite',
-    category: 'Full Stack',
-    image: ecommerceImg,
-    description:
-      'Kanban and sprint management platform for agile teams with real-time websocket updates, task assignment, role-based access, and drag-and-drop boards.',
-    tags: ['React', 'Node.js', 'MongoDB', 'Socket.io', 'Framer Motion'],
-    liveUrl: 'https://example.com/task-suite',
-    githubUrl: 'https://github.com/chandnichauhan/cloud-task-manager',
-    featured: false,
-  },
-  {
-    id: 5,
-    title: 'Real-Time Financial Dashboard',
-    category: 'Frontend',
-    image: aiDashboardImg,
-    description:
-      'Streaming multi-currency financial analytics dashboard with live candlestick charts, portfolio balancing metrics, and automated risk scoring.',
-    tags: ['React', 'TypeScript', 'Tailwind CSS', 'WebSocket', 'Chart.js'],
-    liveUrl: 'https://example.com/fin-analytics',
-    githubUrl: 'https://github.com/chandnichauhan/crypto-analytics-dashboard',
-    featured: false,
-  },
-  {
-    id: 6,
-    title: 'Pulse Design System & UI Kit',
-    category: 'UI/UX',
-    image: ecommerceImg,
-    description:
-      'Comprehensive open-source React UI design system containing 40+ accessible, customizable dark-mode components with built-in accessibility compliance.',
-    tags: ['React', 'TypeScript', 'Storybook', 'Tailwind CSS', 'Figma'],
-    liveUrl: 'https://example.com/pulse-ui',
-    githubUrl: 'https://github.com/chandnichauhan/pulse-design-system',
-    featured: false,
-  },
+
+
 ];

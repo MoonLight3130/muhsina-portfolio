@@ -4,8 +4,8 @@ import profileImg from '../assets/profile.png';
 
 export default function About() {
   const highlights = [
-    '10+ years engineering modern client-side architectures',
-    'Expert in React 19, Vite, Next.js, and Tailwind CSS',
+    '1+ years engineering modern client-side architectures',
+    'Expert in React, Vite, Next.js, and Tailwind CSS',
     'Specialist in high-fidelity UI/UX design translations',
     'Strong foundation in REST APIs and MERN full-stack backends',
   ];
@@ -40,8 +40,8 @@ export default function About() {
 
               <div className="relative rounded-2xl overflow-hidden bg-[#0c0916] border border-purple-500/30 p-2">
                 <img
-                  src={profileImg}
-                  alt="Chandni Chauhan"
+                  src="https://res.cloudinary.com/nmrxsjhh/image/upload/v1788676244/ChatGPT_Image_Sep_6_2026_12_00_33_PM_yu97mb.png"
+                  alt="Muhsina Shaheer"
                   className="w-full h-auto object-cover rounded-xl transition duration-500 group-hover:scale-105"
                 />
 

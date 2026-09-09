@@ -106,7 +106,7 @@ export default function Footer() {
 
         {/* Bottom copyright & attribution */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
-          <p>© {new Date().getFullYear()} Muhsina Shaheer. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Muhsina S. All rights reserved.</p>
           <p className="flex items-center gap-1.5">
             <span>Powered by</span>
             <span className="text-fuchsia-500">•</span>
