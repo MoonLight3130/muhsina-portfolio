@@ -37,7 +37,7 @@ export default function Hero() {
             {/* Main Name Heading matching reference */}
             <h1 className="text-4xl sm:text-6xl xl:text-7xl font-extrabold tracking-tight leading-[1.1] mb-3">
               <span className="gradient-text-purple inline-block">Muhsina</span>{' '}
-              <span className="text-white inline-block">S</span>
+              <span className="text-white inline-block">Shaheer</span>
             </h1>
 
             {/* Profession / Role */}
@@ -83,15 +83,6 @@ export default function Hero() {
                 <FacebookIcon className="w-5 h-5 transition-transform group-hover:scale-110" />
               </a>
 
-              <a
-                href="https://wa.me/+919747133559"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-icon-btn group"
-                aria-label="Visit WhatsApp Profile"
-              >
-                <TwitterIcon className="w-5 h-5 transition-transform group-hover:scale-110" />
-              </a>
 
               <a
                 href="https://www.linkedin.com/in/muhsina-s-a015a6350/"

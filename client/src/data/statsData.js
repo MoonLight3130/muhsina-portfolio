@@ -2,7 +2,7 @@ export const statsData = [
   {
     id: 'exp',
     iconName: 'UserCheck',
-    value: '2+',
+    value: '1+',
     label: 'Years of Experience',
     highlight: 'Decade of engineering mastery',
   },

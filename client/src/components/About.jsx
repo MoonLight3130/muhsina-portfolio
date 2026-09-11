@@ -4,10 +4,10 @@ import profileImg from '../assets/profile.png';
 
 export default function About() {
   const highlights = [
-    '1+ years engineering modern client-side architectures',
-    'Expert in React, Vite, Next.js, and Tailwind CSS',
-    'Specialist in high-fidelity UI/UX design translations',
-    'Strong foundation in REST APIs and MERN full-stack backends',
+    'Specialized in React, Modern JavaScript & UI/UX',
+    'Responsive cross-platform design specialist',
+    'Clean, modular, & maintainable production code',
+    'End-to-end MERN stack web application',
   ];
 
   return (
@@ -69,11 +69,11 @@ export default function About() {
             </h3>
 
             <p className="text-slate-300 text-base sm:text-lg leading-relaxed mb-6">
-              With over a decade of dedicated software engineering experience, I specialize in architecting fast, intuitive, and visually arresting user interfaces. My journey combines deep technical empathy for web standards with an unrelenting obsession for refined micro-interactions.
+              I am a passionate Frontend Developer who loves turning ideas into responsive, interactive, and visually engaging web experiences. I work with React.js, Tailwind CSS, JavaScript, Node.js, and MongoDB, focusing on clean code, modern design, and seamless user experiences.
             </p>
 
             <p className="text-slate-400 text-base leading-relaxed mb-8">
-              Whether building enterprise analytics platforms or high-converting consumer marketplaces, I focus on clean maintainable codebases, optimal bundle delivery, and accessible experiences for users around the globe.
+              I’m always learning, building, and exploring new technologies to create better digital experiences.
             </p>
 
             {/* Highlights Grid */}

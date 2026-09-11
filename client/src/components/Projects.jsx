@@ -6,7 +6,7 @@ import { projectsData } from '../data/projectsData';
 export default function Projects() {
   const [activeCategory, setActiveCategory] = useState('All');
 
-  const categories = ['All', 'Frontend', 'Full Stack', 'UI/UX'];
+  const categories = ['Full Stack',];
 
   const filteredProjects =
     activeCategory === 'All'
@@ -38,11 +38,10 @@ export default function Projects() {
               <button
                 key={cat}
                 onClick={() => setActiveCategory(cat)}
-                className={`px-5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 cursor-pointer ${
-                  isActive
-                    ? 'btn-primary-glow text-white'
-                    : 'bg-[#100c1e] text-slate-400 border border-purple-900/40 hover:text-white hover:border-purple-600/40'
-                }`}
+                className={`px-5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 cursor-pointer ${isActive
+                  ? 'btn-primary-glow text-white'
+                  : 'bg-[#100c1e] text-slate-400 border border-purple-900/40 hover:text-white hover:border-purple-600/40'
+                  }`}
               >
                 {cat}
               </button>
@@ -64,7 +63,7 @@ export default function Projects() {
                   alt={project.title}
                   className="w-full h-full object-cover transition duration-500 group-hover:scale-105 filter brightness-95 group-hover:brightness-105"
                 />
-                
+
                 {/* Category Badge overlay */}
                 <div className="absolute top-3 left-3">
                   <span className="px-3 py-1 rounded-full text-xs font-semibold bg-[#07070d]/85 backdrop-blur-md text-fuchsia-300 border border-purple-500/40 shadow-md">

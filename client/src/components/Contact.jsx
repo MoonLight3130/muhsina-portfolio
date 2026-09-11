@@ -125,7 +125,7 @@ export default function Contact() {
                     <Mail className="w-5 h-5" />
                   </div>
                   <div>
-                    <p className="text-xs text-slate-400 font-medium">Email Me Directly</p>
+                    <p className="text-xs text-slate-400 font-medium">EMAIL ADDRESS</p>
                     <p className="text-sm font-semibold text-white group-hover:text-fuchsia-300 transition">
                       muhsinashaheer127@gmail.com
                     </p>
@@ -140,9 +140,9 @@ export default function Contact() {
                     <Phone className="w-5 h-5" />
                   </div>
                   <div>
-                    <p className="text-xs text-slate-400 font-medium">Call or WhatsApp</p>
+                    <p className="text-xs text-slate-400 font-medium">PHONE NUMBER</p>
                     <p className="text-sm font-semibold text-white group-hover:text-fuchsia-300 transition">
-                      +919747133559
+                      +91  9747133559
                     </p>
                   </div>
                 </a>
@@ -152,7 +152,7 @@ export default function Contact() {
                     <MapPin className="w-5 h-5" />
                   </div>
                   <div>
-                    <p className="text-xs text-slate-400 font-medium">Location</p>
+                    <p className="text-xs text-slate-400 font-medium">LOCATION</p>
                     <p className="text-sm font-semibold text-white">
                       Kollam, Kerala, India
                     </p>
@@ -176,15 +176,7 @@ export default function Contact() {
                 >
                   <FacebookIcon className="w-4 h-4 transition group-hover:scale-110" />
                 </a>
-                <a
-                  href="https://wa.me/+919747133559"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="social-icon-btn group"
-                  aria-label="Twitter / X"
-                >
-                  <TwitterIcon className="w-4 h-4 transition group-hover:scale-110" />
-                </a>
+
                 <a
                   href="https://linkedin.com/in/muhsina-s-a015a6350"
                   target="_blank"
@@ -211,11 +203,9 @@ export default function Contact() {
           <div className="lg:col-span-7">
             <div className="glass-card p-8 sm:p-10 border border-purple-500/25 relative">
               <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">
-                Send a Direct Message
+
               </h3>
-              <p className="text-slate-400 text-sm mb-8">
-                Your message will be safely stored and delivered straight to my inbox.
-              </p>
+
 
               {/* Status Alert Notification */}
               {status.message && (
@@ -249,7 +239,7 @@ export default function Contact() {
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      placeholder="e.g. Sarah Jenkins"
+                      placeholder="e.g. Sarah Jacob"
                       required
                       className="w-full px-4 py-3 rounded-xl bg-[#090614]/80 border border-purple-900/40 text-white placeholder:text-slate-500 text-sm focus:outline-none focus:border-fuchsia-500 focus:ring-1 focus:ring-fuchsia-500 transition"
                     />
@@ -288,7 +278,7 @@ export default function Contact() {
                     name="subject"
                     value={formData.subject}
                     onChange={handleChange}
-                    placeholder="e.g. Frontend Engineering Opportunity / Project Inquiry"
+                    placeholder="e.g. Project Enquiry / Hiring"
                     required
                     className="w-full px-4 py-3 rounded-xl bg-[#090614]/80 border border-purple-900/40 text-white placeholder:text-slate-500 text-sm focus:outline-none focus:border-fuchsia-500 focus:ring-1 focus:ring-fuchsia-500 transition"
                   />
@@ -307,7 +297,7 @@ export default function Contact() {
                     rows="5"
                     value={formData.message}
                     onChange={handleChange}
-                    placeholder="Share the details of your project, timeline, and requirements..."
+                    placeholder="Share the details of your project and requirements..."
                     required
                     className="w-full px-4 py-3 rounded-xl bg-[#090614]/80 border border-purple-900/40 text-white placeholder:text-slate-500 text-sm focus:outline-none focus:border-fuchsia-500 focus:ring-1 focus:ring-fuchsia-500 transition resize-none"
                   />

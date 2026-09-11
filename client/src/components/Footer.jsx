@@ -26,9 +26,9 @@ export default function Footer() {
           {/* Brand Info */}
           <div className="md:col-span-6 space-y-4">
             <a href="#home" className="text-2xl font-extrabold tracking-tight inline-block">
-              <span className="text-white">Port</span>
+              <span className="text-white">MUHSINA</span>
               <span className="text-fuchsia-500 drop-shadow-[0_0_12px_rgba(217,70,239,0.7)]">
-                folio.
+                .
               </span>
             </a>
             <p className="text-slate-400 text-sm max-w-sm leading-relaxed">
@@ -44,15 +44,7 @@ export default function Footer() {
               >
                 <FacebookIcon className="w-4 h-4" />
               </a>
-              <a
-                href="https://wa.me/+919747133559"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-icon-btn"
-                aria-label="Twitter / X"
-              >
-                <TwitterIcon className="w-4 h-4" />
-              </a>
+
               <a
                 href="https://www.linkedin.com/in/muhsina-s-a015a6350/"
                 target="_blank"
