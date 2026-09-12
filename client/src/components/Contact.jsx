@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
 import {
   Mail,
   Phone,
@@ -48,38 +49,35 @@ export default function Contact() {
     setStatus({ submitting: true, success: null, message: '' });
 
     try {
-      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
-      const response = await fetch(`${apiUrl}/contact`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
+      const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID || 'service_v3h1iub';
+      const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'template_j7rbd8n';
+      const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || '_rJHuuveLb5qtYUze';
+
+      const templateParams = {
+        name: formData.name,
+        from_name: formData.name,
+        email: formData.email,
+        from_email: formData.email,
+        reply_to: formData.email,
+        subject: formData.subject,
+        message: formData.message,
+      };
+
+      await emailjs.send(serviceId, templateId, templateParams, publicKey);
+
+      setStatus({
+        submitting: false,
+        success: true,
+        message: 'Thank you! Your message has been sent successfully.',
       });
-
-      const result = await response.json();
-
-      if (response.ok && result.success) {
-        setStatus({
-          submitting: false,
-          success: true,
-          message: result.message || 'Thank you! Your message has been sent successfully.',
-        });
-        // Clear form
-        setFormData({ name: '', email: '', subject: '', message: '' });
-      } else {
-        setStatus({
-          submitting: false,
-          success: false,
-          message: result.message || 'Failed to send message. Please try again.',
-        });
-      }
+      // Clear form
+      setFormData({ name: '', email: '', subject: '', message: '' });
     } catch (error) {
       console.error('Contact submission error:', error);
       setStatus({
         submitting: false,
         success: false,
-        message: 'Unable to connect to the server. Please check your backend connection.',
+        message: error?.text || 'Failed to send message. Please try again later.',
       });
     }
   };
