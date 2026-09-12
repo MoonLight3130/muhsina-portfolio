@@ -66,7 +66,7 @@ export default function HeroNeonFrame() {
         {/* The Developer Portrait Image */}
         <div className="relative z-20 w-full h-full flex items-end justify-center">
           <img
-            src={profileImg}
+            src="https://res.cloudinary.com/okuypz7t/image/upload/f_auto,q_auto/ChatGPT_Image_Sep_13_2026_01_02_32_AM_vx2pca"
             alt="Chandni Chauhan - Frontend Developer"
             className="w-full h-full object-cover object-top filter contrast-[1.03] brightness-[1.02] drop-shadow-[0_10px_20px_rgba(0,0,0,0.8)]"
             loading="eager"
